@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FundMe DApp</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>FundMe DApp</h1>
+    <p class="subtitle">A decentralized application for funding and withdrawing ETH.</p>
+
+    <div class="button-group">
+      <button id="connectButton" class="button">Connect Wallet</button>
+      <button id="balanceButton" class="button">Get Balance</button>
+      <button id="withdrawButton" class="button">Withdraw</button>
+    </div>
+
+    <div class="fund-section">
+      <label for="ethAmount" class="label">ETH Amount</label>
+      <input id="ethAmount" class="input" placeholder="0.1" />
+      <button id="fundButton" class="button fund-button">Fund</button>
+    </div>
+  </div>
+
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
