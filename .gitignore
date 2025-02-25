@@ -1,0 +1,9 @@
+.env
+.encryptedKey.json
+node_modules
+dist
+
+Learning
+
+history.txt
+history2.txt
